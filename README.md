@@ -10,6 +10,7 @@
   * [tslint](https://github.com/palantir/tslint)
   * [sass-lint](https://github.com/sasstools/sass-lint)
 * [Yarn](https://yarnpkg.com/)
+* Hot reloading
 
 ## Installation
 
