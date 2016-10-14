@@ -4,7 +4,8 @@
 
 * [React](https://facebook.github.io/react/)
 * [TypeScript](https://www.typescriptlang.org/index.html)
-* [SASS](http://sass-lang.com/)
+* [Webpack](https://webpack.github.io/)
+* [Sass](http://sass-lang.com/)
 * Linting
   * [tslint](https://github.com/palantir/tslint)
   * [sass-lint](https://github.com/sasstools/sass-lint)
@@ -28,5 +29,6 @@ Install linter plugins:
 
 ## Planned Features
 
+* React Router
 * Webpack Dev Server
 * React Hot Loader
