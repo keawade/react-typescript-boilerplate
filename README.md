@@ -25,3 +25,8 @@ Install linter plugins:
 
 * TSLint
 * Sass Lint
+
+## Planned Features
+
+* Webpack Dev Server
+* React Hot Loader
