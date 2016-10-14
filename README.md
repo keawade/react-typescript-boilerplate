@@ -32,3 +32,4 @@ Install linter plugins:
 * React Router
 * Webpack Dev Server
 * React Hot Loader
+* Separate dev/prod webpack configs
