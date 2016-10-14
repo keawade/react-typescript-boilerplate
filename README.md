@@ -30,6 +30,4 @@ Install linter plugins:
 ## Planned Features
 
 * React Router
-* Webpack Dev Server
-* React Hot Loader
 * Separate dev/prod webpack configs
