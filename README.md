@@ -16,8 +16,8 @@
 
 1. Clone the repo
 2. `yarn`
-3. `yarn run build`
-4. Open `index.html` in a browser
+3. `yarn start`
+4. Open `http://localhost:8080` in a browser
 
 ## Optional Editor Configuration
 
