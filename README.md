@@ -10,7 +10,8 @@
   * [tslint](https://github.com/palantir/tslint)
   * [sass-lint](https://github.com/sasstools/sass-lint)
 * [Yarn](https://yarnpkg.com/)
-* Hot reloading
+* [Hot module replacement](http://webpack.github.io/docs/webpack-dev-server.html#hot-module-replacement)
+* [react-router](https://github.com/ReactTraining/react-router#react-router--)
 
 ## Installation
 
@@ -30,5 +31,4 @@ Install linter plugins:
 
 ## Planned Features
 
-* React Router
 * Separate dev/prod webpack configs

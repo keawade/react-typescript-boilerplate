@@ -10,8 +10,8 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/assets/',
-    filename: 'bundle.js',
+    publicPath: 'http://localhost:8080/',
+    filename: 'dist/bundle.js',
   },
   devtool: 'source-map',
   resolve: {
@@ -20,7 +20,10 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.tsx?$/,
-      loaders: ['react-hot-loader/webpack', 'ts-loader'],
+      loaders: [
+        'react-hot-loader/webpack',
+        'ts-loader',
+      ],
       exclude: /node_modules/,
     }, {
       test: /\.scss$/,
