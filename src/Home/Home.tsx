@@ -17,7 +17,7 @@ class Home extends React.Component<IHomeProps, IHomeState> {
   public render() {
     return (
       <div className='home'>
-        <h1>Home</h1>
+        <h1>react-typescript-boilerplate</h1>
       </div>
     );
   }
