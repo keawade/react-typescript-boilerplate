@@ -15,10 +15,20 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js'],
+    extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js'],
   },
   module: {
-    loaders: [{
+    rules: [{
+      test: /\.js$/,
+      loader: 'source-map-loader',
+      exclude: /node_modules/,
+      enforce: 'pre',
+    }, {
+      test: /\.tsx?$/,
+      loader: 'tslint-loader',
+      exclude: /node_modules/,
+      enforce: 'pre',
+    }, {
       test: /\.tsx?$/,
       loaders: [
         'react-hot-loader/webpack',
@@ -34,18 +44,6 @@ module.exports = {
       loaders: ['style', 'css'],
       exclude: /node_modules/,
     }],
-    preLoaders: [{
-      test: /\.js$/,
-      loader: 'source-map-loader',
-      exclude: /node_modules/,
-    }, {
-      test: /\.tsx?$/,
-      loader: 'tslint-loader',
-      exclude: /node_modules/,
-    }],
-  },
-  tslint: {
-    failOnHint: false, // Do it.
   },
   externals: {
     'react': 'React',
