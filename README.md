@@ -18,8 +18,8 @@ A light boilerplate for React/TypeScript projects.
 ## Installation
 
 1. Clone the repo
-2. `yarn`
-3. `yarn start`
+2. `yarn` or `npm install`
+3. `yarn start` or `npm start`
 4. Open `http://localhost:8080` in a browser
 
 ## Optional Editor Configuration
