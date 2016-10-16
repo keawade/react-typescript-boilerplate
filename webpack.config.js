@@ -32,7 +32,7 @@ module.exports = {
       test: /\.tsx?$/,
       loaders: [
         'react-hot-loader/webpack',
-        'ts-loader',
+        'awesome-typescript-loader',
       ],
       exclude: /node_modules/,
     }, {

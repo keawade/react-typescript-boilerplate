@@ -15,6 +15,7 @@
   "author": "Keith Wade <keawade@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "awesome-typescript-loader": "^2.2.4",
     "css-loader": "^0.25.0",
     "node-sass": "^3.10.1",
     "react-hot-loader": "^3.0.0-beta.6",
@@ -23,7 +24,6 @@
     "sasslint-webpack-plugin": "^1.0.4",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
-    "ts-loader": "^0.9.1",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",
     "typescript": "^2.0.3",
