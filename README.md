@@ -1,5 +1,7 @@
 # react-typescript-boilerplate
 
+A light boilerplate for React/TypeScript projects.
+
 ## Features
 
 * [React](https://facebook.github.io/react/)
